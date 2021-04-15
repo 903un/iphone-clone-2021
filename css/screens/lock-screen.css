@@ -1,0 +1,8 @@
+.lock-screen__image {
+  position: relative;
+}
+.lock-screen__image img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
