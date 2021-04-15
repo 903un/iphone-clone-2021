@@ -2,18 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  box-sizing: border-box;
   padding: 30px 15px;
   font-size: 18px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 .status-bar__white {
   color: white;
-}
-.status-bar__lock {
-  position: absolute;
-  top: 0;
-  z-index: 1;
 }
 .status-bar__column {
   display: flex;

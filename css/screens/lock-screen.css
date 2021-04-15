@@ -1,8 +1,63 @@
-.lock-screen__image {
+.wall-paper {
   position: relative;
 }
-.lock-screen__image img {
+.wall-paper img {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
+}
+.lock-screen__content {
+  position: absolute;
+  z-index: 1;
+}
+.info-text {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  top: 100px;
+  font-size: 20px;
+}
+.info-text i {
+  margin-right: 8px;
+}
+.time-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 150px;
+  color: white;
+}
+.time-date span:first-child {
+  font-size: 110px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+.time-date span:last-child {
+  font-size: 26px;
+}
+.shortcut-btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  bottom: 50px;
+  font-size: 20px;
+  padding: 0px 70px;
+  box-sizing: border-box;
+}
+.shortcut-btn__bg {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+}
+.shortcut-btn__bg i {
+  margin-top: 24px;
 }
