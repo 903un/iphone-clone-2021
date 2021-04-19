@@ -19,6 +19,24 @@
   top: 100px;
   font-size: 20px;
 }
+@keyframes unlockScreen {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.info-text a:hover {
+  will-change: transform;
+  animation: unlockScreen 1s linear infinite;
+}
 .info-text a {
   margin-right: 8px;
 }
