@@ -5,6 +5,12 @@
   align-items: center;
 }
 .app-icon button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
   width: 85px;
   height: 85px;
   border-radius: 24px;
@@ -17,6 +23,28 @@
 }
 .app-music {
   background-color: #fa2e46;
-  color: white;
-  font-size: 40px;
+}
+.app-call {
+  background-color: #f7c46a;
+}
+.app-photo {
+  background-color: #c3dcd6;
+}
+.app-Message {
+  background-color: #faa181;
+}
+.app-kakaotalk {
+  background-color: #9dd9d7;
+}
+.app-calendar {
+  background-color: #f1aeb7;
+}
+.app-instagram {
+  background-color: #55a8a5;
+}
+.app-safari {
+  background-color: #f6909c;
+}
+.app-appstore {
+  background-color: #78c1af;
 }
