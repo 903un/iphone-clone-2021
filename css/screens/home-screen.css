@@ -11,3 +11,26 @@ body {
   box-sizing: border-box;
   padding: 40px;
 }
+.main-home__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 220px;
+  margin-bottom: 50px;
+}
+.main-home__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.main-home__column:nth-child(even) {
+  margin-left: 35px;
+}
+.main-home__column--row {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

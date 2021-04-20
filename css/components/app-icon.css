@@ -1,11 +1,19 @@
 .app-icon {
-  width: 100px;
-  height: 100px;
-  border-radius: 24px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.app-icon button {
+  width: 85px;
+  height: 85px;
+  border-radius: 24px;
   border: none;
+}
+.app-icon span {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 4px;
 }
 .app-music {
   background-color: #fa2e46;
